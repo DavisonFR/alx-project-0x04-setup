@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import { RootState, useAppDispatch, increment, decrement } from "@/store/store";
+import { RootState, useAppDispatch, increment, decrement } from "../store/store";
 
 const CounterApp: React.FC = () => {
   const count = useSelector((state: RootState) => state.counter.value);
